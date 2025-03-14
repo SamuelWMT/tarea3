@@ -1,0 +1,106 @@
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 30px;
+    display: grid;
+    grid-template-areas: "c1 c1 c1 c1 c1 c1 c2 c2 c2 c2 c2 c2"
+                         "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3"
+                         "c4 c4 c5 c5 c6 c6 c9 c10 c10 c10 c11 c11"
+                         "c4 c4 c5 c5 c6 c6 c9 c12 c13 c13 c11 c11"
+                         "c4 c4 c7 c7 c8 c8 c9 c12 c13 c13 c11 c11"
+                         "c4 c4 c7 c7 c8 c8 c9 c12 c14 c15 c11 c11"
+                         "c4 c4 c16 c16 c16 c16 c16 c16 c16 c16 c11 c11";
+}
+
+.padre .caja1 {
+    background-color: red;
+    margin: 5px;
+    grid-area: c1;
+}
+.padre .caja2 {
+    background-color: red;
+    margin: 5px;
+    grid-area: c2;
+}
+.padre .caja3 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c3;
+}
+.padre .caja4 {
+    background-color: red;
+    margin: 5px;
+    grid-area: c4;
+}
+.padre .caja5 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c5;
+}
+.padre .caja6 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c6;
+}
+.padre .caja7 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c7;
+}
+.padre .caja8 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c8;
+}
+.padre .caja9 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c9;
+}
+.padre .caja10 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c10;
+}
+.padre .caja11 {
+    background-color: red;
+    margin: 5px;
+    grid-area: c11;
+}
+.padre .caja12 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c12;
+}
+.padre .caja13 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c13;
+}
+.padre .caja14 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c14;
+}
+.padre .caja15 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c15;
+}
+.padre .caja16 {
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-area: c16;
+}
